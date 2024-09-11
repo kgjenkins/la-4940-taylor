@@ -193,7 +193,7 @@ If you have data that extends beyond your area of interest, and don't want to ex
 
 Historical maps can be great sources of information that pre-dates the computer era.  However, most scanned maps images found online are just images, with no information about the coordiates that the map covers.  To view these maps in QGIS with other layers, we will need to do a process called "georeferencing".
 
-There are 2 maps in the "historical-maps" folder that we can try to georeference.  The "Georeferencer" tool can be found in the "Layer" menu.  (In older versions of QGIS, it was in the "Raster" menu, but now it can also be used to georeference vector datasets such as DXF files, so it was moved to the Layer menu.)
+There is a map in the "historical-maps" folder that we can try to georeference.  The "Georeferencer" tool can be found in the "Layer" menu.  (In older versions of QGIS, it was in the "Raster" menu, but now it can also be used to georeference vector datasets such as DXF files, so it was moved to the Layer menu.)
 
 We'll work through the process together in the workshop, but for future reference, here are a couple of good video demos:
 
