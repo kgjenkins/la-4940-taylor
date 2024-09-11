@@ -1,4 +1,4 @@
-# QGIS workshop for LA 4940 (Taylor), focusing on trees and toxics in 
+# QGIS workshop for LA 4940 (Taylor), with example data for Radburn, NJ
 
 Workshop 2024-09-11 by Keith Jenkins, GIS Librarian at Mann Library, Cornell University. \
 This document is online at: <https://kgjenkins.github.io/la-4940-taylor/>
@@ -106,7 +106,7 @@ Save "mymap.qgz" to the folder that also contains your data -- for example, with
 
 ## Streets
 
-OpenStreetMap.org is a great source of streets data, and is widely considered to be the most complete and accurate street map in the world.  But New Jersey,  like many states, has very good official streets data that it makes available to the public, so we'll use a GeoPackage of streets for Fair Lawn and the surrounding area that was clipped from a statewide dataset.
+New Jersey, like many states, has very good official streets data that it makes available to the public, so we'll use a GeoPackage of streets for Fair Lawn and the surrounding area that was clipped from a statewide dataset.
 
 * Look in the "streets" folder, and drag the "streets_clipped.gpkg" file onto QGIS
 * If it ends up underneath the boundaries layer, drag the boundaries lower in the list of layers.
@@ -274,6 +274,13 @@ To export the 3D contours to DXF, right-click the layer > Export > Save features
 For a smaller file size, you could first run the "Clip raster by extent" tool to create a temporary layer that covers a smaller area, then run the contour tool on that.
 
 To generate contours that cover more than one elevation raster tile, you could first use the "Build virtual raster" tool to create a temporary layer that effectively treats multiple files as a single layer.
+
+
+## Getting street data for other parts of the world
+
+OpenStreetMap.org (OSM) is a great source of streets data, and is widely considered to be the most complete and accurate street map in the world.  It is especially useful in places where official sources are not publicly available.
+
+We can use the QuickOSM plugin to import specific types of data (based on OSM tags) for selected areas, usually up to the size of a city.  For country-based downloads, see the shapefiles available from <https://download.geofabrik.de/>
 
 
 ## Citing your Data Sources
