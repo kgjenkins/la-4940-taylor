@@ -178,7 +178,7 @@ Architects often want to export GIS layers for use in a CAD program like Rhino o
 * Project menu > Import/Export > Export Project to DXF...
 * Click the "..." button to specify where to save the .dxf file
 * Be sure to select an appropriate CRS!  QGIS will reproject all your layers to the chosen CRS.  Some good CRS options for central New Jersey include:
-  * EPSG:2261 = NAD83 / New Jersey Central (ftUS) -- if you want to work in US feet
+  * EPSG:3424 = NAD83 / New Jersey (ftUS) -- if you want to work in US feet
   * EPSG:32618 = WGS 84 / UTM zone 18N -- if you want to work in meters
 
 Do **NOT** export to DXF using any of the following CRS, or you will see distortions and incorrect measurements:
