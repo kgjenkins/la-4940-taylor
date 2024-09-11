@@ -101,7 +101,7 @@ Now you should just see Fair Lawn on the map, without the clutter of all the oth
 
 ## Save your project!
 
-Save "mymap.qgz" to the folder that also contains your data -- for example, within the "" folder. That way, you can zip up or move the containing folder around while keeping your map and data intact. The .qgz project file contains your map styles and pointers to your data files, but not the data itself.
+Save "mymap.qgz" to the folder that also contains your data -- for example, within the "la-4940-taylor-main" folder. That way, you can zip up or move the containing folder around while keeping your map and data intact. The .qgz project file contains your map styles and pointers to your data files, but not the data itself.
 
 
 ## Streets
